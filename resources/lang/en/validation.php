@@ -87,6 +87,8 @@ return [
     |
     */
 
+    'html_escape' => 'The :attribute format is invalid.',
+
     'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
