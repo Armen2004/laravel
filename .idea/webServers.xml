@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d967e46f-6cad-46e9-889a-3b6209a03331" name="newarmenia.org" url="http://ftp.newarmenia.org">
+        <fileTransfer host="ftp.newarmenia.org" port="21" rootFolder="/public_html" password="dff9dfc2dfcbdfc7dfc8dfc2dfcbdfc6dfcbdf98df9adf9bdf9e" username="newarmen">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

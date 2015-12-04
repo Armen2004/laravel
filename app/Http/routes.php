@@ -16,3 +16,8 @@ Route::get('/', function () {
 });
 
 Route::resource('person', 'PersonController');
+Route::resource('menu', 'Admin\\MenuController');
+
+Route::get('bla', ['as' => 'upload', 'uses' => 'ImageController@getUpload']);
+Route::post('bla', ['as' => 'upload-post', 'uses' =>'ImageController@postUpload']);
+Route::post('upload/delete', ['as' => 'upload-remove', 'uses' =>'ImageController@deleteUpload']);

@@ -158,6 +158,11 @@ return [
          */
         Collective\Html\HtmlServiceProvider::class,
 
+        /*
+         * Added Laravel Image resize
+         */
+        Intervention\Image\ImageServiceProvider::class,
+
     ),
 
     /*
@@ -216,6 +221,11 @@ return [
          */
         'Form'      => Collective\Html\FormFacade::class,
         'HTML'      => Collective\Html\HtmlFacade::class,
+
+        /*
+         * Added Laravel Image resize facade
+         */
+        'Image' => Intervention\Image\Facades\Image::class,
 
     ],
 
